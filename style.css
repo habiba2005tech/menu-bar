@@ -1,0 +1,26 @@
+.menu{
+    align-items: center;
+    background-color: rgb(224, 221, 221);
+    padding-left: 100px;
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgb(6, 29, 232);
+    border-right: 1px solid black;
+    
+}
+.menu ul li a:hover{
+    background-color: chocolate;
+    color: aliceblue;
+}
+.menu ul li:last-child a {
+    border-right: none;
+}
