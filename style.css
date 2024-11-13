@@ -24,3 +24,24 @@
 .menu ul li:last-child a {
     border-right: none;
 }
+.container{
+    display: flex;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(206, 24, 58);
+    text-align: center;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 72, 237);
+    text-align: center;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(205, 22, 205);
+    text-align: center;
+}
